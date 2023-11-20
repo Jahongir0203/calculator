@@ -78,6 +78,7 @@ class _CalculatorHomePageState extends State<CalculatorHomePage> {
   Widget buildButtons(
       double btnsWith, Color btnsColor, String btnsText, Color textColor) {
     return InkWell(
+      borderRadius: BorderRadius.circular(50),
       onTap: () {
         setState(() {
           buttonPresed(btnsText);
